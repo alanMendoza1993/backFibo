@@ -7,11 +7,22 @@ You just got hired to join the *cool* engineering team at *Nexu*! The first stor
 
 ```
                               GET    /brands
+                              Por tiempo deje anidado la informacion de la marca
+
                               GET    /brands/:id/models
+                              al registrar la marca nos arroja un id ese lo pueden usar para solicitar los modelos
+
                               POST   /brands
+                              se registra una marca tal cual se solicito
+
                               POST   /brands/:id/models
+                              al registrar la marca nos arroja un id ese lo pueden usar para registrar un modelo
+
                               PUT    /models/:id
+                              se hace un update tal cual se solicito
+
                               GET    /models
+                              se las devo
 ```
 
 #### GET /brands

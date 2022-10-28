@@ -2,9 +2,10 @@ const express = require("express");
 
 const app = express();
 const User = require("../models/user");
-const Models = require("../models/models");
 
 app.post("/user", async (req, res) => {
+  //console.log(req.body);
+
   let newUser = new User({
     name: req.body[0].value,
     lastName: req.body[1].value,
